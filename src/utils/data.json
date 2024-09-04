@@ -1,0 +1,103 @@
+{ "info" : [
+    {
+      "id" : 1,
+      "title": "Radiant Rose Lipstick",
+      "description": "A creamy lipstick in a soft rose shade. Provides long-lasting color and hydration."
+    },
+    {
+      "id" : 2,
+      "title": "Dewy Petal Blush",
+      "description": "Get that natural flush with our dewy blush. Lightweight and buildable for a fresh look."
+    },
+    {
+      "id" : 3,
+      "title": "Golden Goddess Highlighter",
+      "description": "Illuminate your features with this golden highlighter. Adds a sun-kissed glow to cheekbones."
+    },
+    {
+      "id": 4,
+      "title": "Sapphire Sky Eyeshadow Palette",
+      "description": "Create mesmerizing eye looks with these rich sapphire shades. From navy to celestial blue."
+    },
+    {
+      "id" : 5,
+      "title": "Silk Veil Primer",
+      "description": "Smooth and prep your skin with our silky primer. Minimizes pores and enhances makeup longevity."
+    },
+    {
+      "id":6,
+      "title": "Opal Elixir Setting Spray",
+      "description": "Lock in your makeup with opalescent magic. Hydrates and leaves a subtle opal sheen."
+    },
+    {
+      "id" : 7,
+      "title": "Diamond Dust Nail Polish",
+      "description": "Coat your nails in sparkling diamonds. Choose from clear, champagne, or icy blue shades."
+    },
+    {
+      "id" : 8,
+      "title": "Amethyst Haze Eyeliner",
+      "description": "Line your eyes with the mystical allure of amethyst. Gel formula for precise application."
+    },
+    {
+      "id" : 9,
+      "title": "Rosewater Mist",
+      "description": "Refresh your skin with pure rosewater. Use as a toner or a midday pick-me-up."
+    },
+    {
+      "id" : 10,
+      "title": "Pearlescent Unicorn Highlight Drops",
+      "description": "Add a touch of unicorn magic to your cheekbones. These drops catch the light beautifully."
+    },
+    {
+      "id" : 11,
+      "title": "Cocoa Velvet Brow Pencil",
+      "description": "Shape and define your brows with this cocoa-hued pencil. Natural-looking and smudge-proof."
+    },
+    {
+      "id" : 12,
+      "title": "Lavender Dream Facial Mask",
+      "description": "Relax and rejuvenate with our soothing lavender mask. Leaves skin soft and hydrated."
+    },
+    {
+      "id" : 13,
+      "title": "Gilded Lily Eyelash Curler",
+      "description": "Curl your lashes like delicate gilded petals. A touch of luxury for your daily routine."
+    },
+    {
+      "id" : 14,
+      "title": "Moonstone Nail Wraps",
+      "description": "Instant nail art! These moonstone-inspired wraps add a celestial touch to your fingertips."
+    },
+    {
+      "id" : 15,
+      "title": "Velvet Plum Lip Stain",
+      "description": "Stain your lips with a rich plum hue. Transfer-proof and perfect for all-day wear."
+    },
+    {
+      "id" : 16,
+      "title": "Jasmine Infusion Body Oil",
+      "description": "Indulge in the scent of jasmine while moisturizing your skin. Lightweight and non-greasy."
+    },
+    {
+      "id" : 17,
+      "title": "Crystal Clear Brow Gel",
+      "description": "Keep your brows in place with our crystal-infused gel. Adds shine and tames unruly hairs."
+    },
+    {
+      "id" : 18,
+      "title": "Rose Quartz Facial Roller",
+      "description": "Massage your face with the calming energy of rose quartz. Reduces puffiness and promotes circulation."
+    },
+    {
+      "id" : 19,
+      "title": "Champagne Bubbles Bath Bomb",
+      "description": "Fizz your cares away with our luxurious champagne-scented bath bomb. Pure relaxation."
+    },
+    {
+      "id":20,
+      "title": "Cherry Blossom Lip Balm",
+      "description": "Nourish and tint your lips with the sweet scent of cherry blossoms. Perfect for daily use."
+    }
+]}
+  

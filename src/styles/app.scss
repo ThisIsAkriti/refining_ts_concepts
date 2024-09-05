@@ -44,4 +44,45 @@ $large : 400px;
 }
 
 //partials - created using underscore at the start _xyz and you can use them to store variable and then use them in app.css
+.custom_sidebar{
+   padding: 2px 12px;
+    margin: 0 4px ;
+    top:0px;
+    left:0px;
+}
+.sidebar{
+    position:sticky;
+    top:0px;
+    left:0px;
+    box-shadow: 4px 6px 6px rgb(221, 216, 216);
+    background-color: white;
+}
 
+.sidebar_components{
+    
+    height: 90vh;
+    width: 220px;
+    margin:10px 6px;
+    & p {
+        background: rgb(211, 208, 208);
+        padding: 12px 14px;
+        margin: 16px 4px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+}
+
+.sidebarComponents_close{
+    visibility:hidden;
+    height: 20px;
+    & p {
+        visibility: hidden;
+    }
+}
+
+.menu{
+    cursor: pointer;
+    @extend .custom_sidebar;
+    border: none ;
+    padding-top: 18px;
+}

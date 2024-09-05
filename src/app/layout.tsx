@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "./component/Navbar";
 import { ContextTheme } from "./component/ThemeContext";
+import Sidebar from "./component/Sidebar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,10 +21,19 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <ContextTheme>
-        <div className="z-30">
-          <Navbar/>
-        </div>
-        {children}
+
+          <div className="flex flex-row">
+            <div>
+            <Sidebar/>
+            </div>
+            
+            <div>
+              <div className="z-30 sticky top-0 flex">
+                <Navbar/>
+              </div>
+              {children}
+            </div>
+          </div>
         </ContextTheme>
         </body>
     </html>

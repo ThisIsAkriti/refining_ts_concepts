@@ -1,11 +1,9 @@
 import Body from "./component/Body";
-
+import "@/styles/app.scss"
 export default function Home() {
   return (
     <main>
-      <div>
-        <Body/>
-      </div>
+      <Body/>
     </main>
   );
 }

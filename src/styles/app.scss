@@ -1,0 +1,47 @@
+@use "_colors" as color; // used as module
+//Variables - shifted to partials _color.scss file
+$large : 400px;
+
+.custom{ // you can use any class name or .custom to store any sort of property 
+    width: $large;
+    padding: 4px;
+    margin: 8px;
+    font-size: xx-large;
+    font-weight: bolder;
+    border-radius: 8px; 
+    display: flex;
+    justify-content: center;
+}
+
+//want all tags with custom properties but different text and bg color:
+@mixin customFunc($colorapply1 , $colorapply2){
+    background-color: $colorapply1;
+    color: $colorapply2;
+} 
+
+//Nesting
+.container{
+    max-width: $large;
+    .button_Sass{
+        @extend .custom; // @extend can hve same property as button
+        @include customFunc(color.$color0 , color.$textColor0);
+        
+        &:hover{
+            opacity: 0.9;
+        }
+
+    }
+    > h1 {
+       
+       @extend .custom; 
+       @include customFunc(color.$color1 , color.$textColor1);
+    }
+    > p {
+        @extend .custom;
+       @include customFunc(color.$color2 , color.$textColor2);
+
+    }
+}
+
+//partials - created using underscore at the start _xyz and you can use them to store variable and then use them in app.css
+
